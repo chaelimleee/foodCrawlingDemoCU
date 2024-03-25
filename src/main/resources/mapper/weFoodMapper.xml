@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper 
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper	namespace="com.javateam.foodCrawlingDemo.mapper">
+
+
+	<select id="getFindWeFoodSiteAll" 
+			resultType="com.javateam.foodCrawlingDemo.domain.InfiniteFoodVO"
+			parameterType="String">
+		SELECT * 
+		FROM INFINITE_FOOD_TBL 
+		WHERE FOOD_NUM BETWEEN 81 AND 91  AND FOOD_SITE = #{foodSite}
+	</select>
+
+	<select id="getWeFoodSiteAll" 
+			resultType="com.javateam.foodCrawlingDemo.domain.InfiniteFoodVO">
+		SELECT * 
+		FROM INFINITE_FOOD_TBL 
+		WHERE FOOD_NUM BETWEEN 81 AND 91  
+	</select>
+
+
+
+</mapper>
