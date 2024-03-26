@@ -95,9 +95,9 @@ public class CategoryInfiniteScrollCrawlingTest4 {
 				 * 
 				 * <ul class="RecipeListstyle__Categories-sc-1s9b4ly-16 fjqwFa">
 						<li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">모두보기</li>
-						<li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">메인요리</li>
-						<li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">밑반찬</li>
-						<li class="RecipeListstyle__Category-sc-1s9b4ly-17 erDeOn">간식</li>
+						<li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">메인요리</li> --완
+						<li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">밑반찬</li> -- 완
+						<li class="RecipeListstyle__Category-sc-1s9b4ly-17 erDeOn">간식</li> --완
 						<li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">간단요리</li>
 						<li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">초대요리</li>
 						<li class="RecipeListstyle__Category-sc-1s9b4ly-17 eRsThs">채식</li> --완
@@ -119,7 +119,7 @@ public class CategoryInfiniteScrollCrawlingTest4 {
 				
 				// 특정 카테고리 클릭 : "밑반찬" 선택
 				WebElement webElement = driver.findElements(By.cssSelector("ul[class='RecipeListstyle__Categories-sc-1s9b4ly-16 fjqwFa']"
-										   	   + " li[class^='RecipeListstyle__Category-sc-1s9b4ly-17']")).get(1);
+										   	   + " li[class^='RecipeListstyle__Category-sc-1s9b4ly-17']")).get(7);
 				
 				log.info("클릭할 개체 : " + webElement.getText());
 				

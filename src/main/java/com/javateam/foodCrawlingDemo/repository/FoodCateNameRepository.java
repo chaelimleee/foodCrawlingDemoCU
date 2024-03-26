@@ -19,7 +19,7 @@ public interface FoodCateNameRepository extends CrudRepository<FoodCateNameVO, L
 
 	@Transactional
 	@Modifying
-	@Query(value = "INSERT INTO FOOD_CATE_NAME (CATE_ID,ID) VALUES (1,?1)", nativeQuery = true )
+	@Query(value = "INSERT INTO FOOD_CATE_NAME (CATE_ID,ID) VALUES (7,?1)", nativeQuery = true )
 	void insertFoodCateName(Long id);
 
 	

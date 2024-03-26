@@ -111,7 +111,7 @@ public class CategoryInfiniteScrollCrawlingTest3 {
 				
 				// 특정 카테고리 클릭 : "밑반찬" 선택
 				WebElement webElement = driver.findElements(By.cssSelector("ul[class='RecipeListstyle__Categories-sc-1s9b4ly-16 fjqwFa']"
-										   	   + " li[class^='RecipeListstyle__Category-sc-1s9b4ly-17']")).get(15);
+										   	   + " li[class^='RecipeListstyle__Category-sc-1s9b4ly-17']")).get(7);
 				
 				log.info("클릭할 개체 : " + webElement.getText());
 				
